@@ -1,75 +1,120 @@
 <!DOCTYPE html>
 <!-- Written by : Tom Altankhuyag-->
 <!--Testing here, this was written on the laptop-->
-<html lang = "en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    <link rel = "stylesheet" href = "main.css">
-    <title>Tom's Portfolio</title>
-  </head>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="main.css">
+  <title>Tom's Portfolio</title>
+</head>
+
 <body>
 
+<!-- background source https://pixabay.com/photos/nature-waters-lake-island-3082832/ -->
 
 
 
-  
-  <section class =" vh-100" id = "welcome">
-<div class = "topTitle text-center " id = "titleContainer">
-  <h1 class = "text" id = "title"  > Welcome </h1>
-</div>
-
-
-<div class = "container text-center " id = "links">
-  
-  <div class ="row">
-    <div class = "col-md-4">
-  <a  href = "https://steamcommunity.com/id/Aggrerose/" target = "_blank" > <h1 class = "myLink">Steam</h1></a> 
-    </div>
-
-    <div class = "col-md-4 "  >
-      <a href = "https://www.linkedin.com/in/tom-altankhuyag-496bbb19b/" target = "_blank"> <h1 class = "myLink">Linkedin</h1></a> 
+  <section>
+    <div class=" vh-100" id="welcome">
+      <div class="topTitle text-center " id="titleContainer">
+        <h1 class="text" id="title"> Welcome </h1>
       </div>
-      <div class = "col-md-4 ">
-        <a href = "https://github.com/TomAltankhuyag" target = "_blank"> <h1 class = "myLink">GitHub</h1></a> 
+
+
+      <div class="container text-center " id="links">
+
+        <div class="row">
+          <div class="col-md-4">
+            <a href="mailto: tomaltankhuyag@outlook.com" target="_blank">
+              <h1 class="myLink">Email</h1>
+            </a>
+          </div>
+
+          <div class="col-md-4 ">
+            <a href="https://www.linkedin.com/in/tom-altankhuyag-496bbb19b/" target="_blank">
+              <h1 class="myLink">Linkedin</h1>
+            </a>
+          </div>
+          <div class="col-md-4 ">
+            <a href="https://github.com/TomAltankhuyag" target="_blank">
+              <h1 class="myLink">GitHub</h1>
+            </a>
+          </div>
+
         </div>
-    
+
       </div>
-  </div>
-<!--  "https://steamcommunity.com/id/Aggrerose/"
+      <!-- <div class="img-thumbnail"
+      style="background-image: url('darkWallpaper.jpg'); background-size: cover; background-repeat: no-repeat, repeat; "> -->
+      <!-- style="background-image: url('darkWallpaper.jpg'); background-size: cover; background-repeat: no-repeat, repeat; float: left; width: 50%;">
+      background-color: rgba(105,0,255,0.5); -->
+      <div class="row"  style=" background-size:contain  ">
+        <div class="col-xl-5 " id="profilePic">
+          <img src="profilePic.jpg" alt="profileImage" class="rounded-circle img-fluid"
+            style="max-width:100%; opacity: 1; float: left; margin-left: 25%; margin-top: 0%; width:50%;">
+        </div>
+        
+        <div class="img" style = "background-size: cover; float: left; width: 50%; opacity: 1;">
+         
+          <div class="col-xl-12 text-center" id="description">
+            <h2 class="text-light display-4"> Dagvadorj (Tom) Altankhuyag</h2>
+            <p class="text-light "> Hello! My name is Tom and I am a Software Engineering student at the University of Calgary.
+              I have just completed my 3rd year studies and actively pursuing for internship commencing Fall 2022.
+              I am passionate for Full Stack Development and everything in between. Hobbies that describe me the most include lifting weights, PC enthusiast,
+              longboarding, and video gaming (specifically CSGO). 
+              This website was developed using HTML and CSS, with basic features used from 
+              Bootstrap 5.
+              
+            </p>
+            
+            <a class="col-md-4" id = "links" href = "https://github.com/TomAltankhuyag?tab=repositories&q=&type=public&language=&sort=" target = "_blank">
+              <h1 class = "myLink" >Resume</h1>
+            </a>
+          
+          </div>
+        </div>
+      </div>
+      <!--  "https://steamcommunity.com/id/Aggrerose/"
 "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  -->
-</section>
+    </div>
+  </section>
 
 
-<section class = "vh-100" id = "about" style = "background-image: url('trippyBackground.jpg'); background-size: cover " >
-<!--div class ="aboutMeTitle text-center">
+
+  <!-- <section class="vh-100" id="about" style="background-image: url('darkWallpaper.jpg'); background-size: cover "> -->
+  <!--div class ="aboutMeTitle text-center">
   <h1 class = "text-danger">About Me</h1>
 </div-->
 
 
-<div class = "img-thumbnail" style = "background-image: url('bluePinkWallpaper.jpg'); background-size: cover; background-repeat: no-repeat, repeat; ">
-  <div class = "row">
-    <div class = "col-xl-6 " id = "picture">
-      <img src = "goodFaceTom.jpg" alt = "car" class = "img-thumbnail rounded-circle translate-middle-y" style = "max-width:40%;">
-    </div>
-    <div class = "col-xl-6 text-center" id = "description">
-      <h2 class ="text-success display-4"> Hello!</h2>
-      <p class ="text-danger "> fuck u</p>
+  <!-- <div class="img-thumbnail"
+      style="background-image: url('bluePinkWallpaper.jpg'); background-size: cover; background-repeat: no-repeat, repeat; ">
+      <div class="row">
+        <div class="col-xl-6 " id="picture">
+          <img src="goodFaceTom.jpg" alt="car" class="img-thumbnail rounded-circle translate-middle-y"
+            style="max-width:40%;">
+        </div>
+        <div class="col-xl-6 text-center" id="description">
+          <h2 class="text-success display-4"> Hello!</h2>
+          <p class="text-danger "> I am a student!</p>
+
+        </div>
+
+
+
+      </div>
 
     </div>
-
-
-
-  </div>
-
-</div>
-</section>
+  </section> -->
 
 
 </body>
+
 </html>

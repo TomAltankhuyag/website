@@ -2,7 +2,7 @@
  body{
     margin:0;
     padding:0;
-    background-image: url("purpleCityHD.jpg" ); 
+    background-image: url("nature.jpg" ); 
      background-color: #00eeff ;
      background-repeat: no-repeat, repeat;
      background-size: cover;
@@ -11,19 +11,19 @@
       /*background-image: url("purpleCityHD.jpg" ); 
       */
 a{
-    color: rgb(76, 0, 255);
+    color: rgb(98, 197, 40);
     text-decoration: none;
-    -webkit-text-stroke: 0.5mm rgb(0, 119, 255);
+    -webkit-text-stroke: 0.5mm rgb(255, 255, 255);
 
 }
 
 a:hover{
-    color: rgb(0, 255, 255);
+    color: rgb(39, 212, 146);
     text-decoration: none;
-    -webkit-text-stroke: 0.1mm rgb(212, 0, 255);
+    -webkit-text-stroke: 0.1mm rgb(39, 212, 146);
 }
 a:active{
-    color: rgb(74, 0, 248);
+    color: rgb(36, 252, 241);
     text-decoration: none;
     -webkit-text-stroke: 0.1mm rgb(51, 255, 0);
 }
@@ -38,12 +38,13 @@ a:active{
     color: rgb(255, 255, 255);
     margin-bottom: 10mm;
     font-size: 20mm;
-    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #facf0f, 0 0 0.3em #0eff06;
     animation: titleMove 3s;
     animation-iteration-count: infinite;
-    
-   
-  
+     
+}
+#profilePic{
+    opacity: 1;
 }
 @keyframes titleMove{
     0% {transform :rotate(-5deg) scale(1);}
